@@ -41,7 +41,7 @@ nav div h1 {
 .heading {
   margin-left: 10%;
   margin-top: 8%;
-  width: 40%;
+  width: 50%;
   color: #ffffff;
   font-size: 4rem;
   font-weight: 800;
@@ -58,7 +58,7 @@ nav div h1 {
   font-weight: 800;
 }
 hr {
-  width: 66%;
+  width: 70%;
   margin-right: 80px;
   float: right;
 }
