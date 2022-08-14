@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;800&display=swap");
+* {
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  background: url("assets/retro.png");
+  background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 12vh;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+nav div ul {
+  display: flex;
+  list-style-type: none;
+  gap: 60px;
+}
+nav div h1 {
+  text-transform: uppercase;
+  width: 30px;
+}
+.mobile ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.heading {
+  margin-left: 10%;
+  margin-top: 8%;
+  width: 40%;
+  color: #ffffff;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.learn-more button {
+  color: #fff;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  background-color: transparent;
+  margin-left: 10%;
+  margin-top: 5%;
+  padding: 15px 30px;
+  font-weight: 800;
+}
+hr {
+  width: 66%;
+  margin-right: 80px;
+  float: right;
+}
+
+@media only screen and (max-width: 1000px) {
+  .heading {
+    font-size: 2rem;
+  }
+  .nav-menu {
+    display: none;
+  }
+}
